@@ -29,14 +29,15 @@ The `dist/aframe-gui.js` file defines the following components:
 | gui-circle-loader     | a-gui-circle-loader      | Circular progress meter                                  |
 | gui-circle-timer      | a-gui-circle-timer       | Circular progress meter with timer                       |
 
-
-key_orange       | '#ed5b21' |
-key_orange_light | '#ef8c60' |
-key_grey         | '#22252a' |
-key_grey_dark    | '#2c3037' |
-key_grey_light   | '#606876' |
-key_offwhite     | '#d3d3d4' |
-key_white        | '#ffffff' |
+| Color           | Hexcode   |
+| --------------- | --------- |
+|key_orange       | '#ed5b21' |
+|key_orange_light | '#ef8c60' |
+|key_grey         | '#22252a' |
+|key_grey_dark    | '#2c3037' |
+|key_grey_light   | '#606876' |
+|key_offwhite     | '#d3d3d4' |
+|key_white        | '#ffffff' |
 
 
 
@@ -161,14 +162,14 @@ The webpack-dev-server should now be running at http://localhost:8080
 | active-color       | Background color when button is pressed down              | #ed5b21       |
 | toggle             | If true, button acts as toggle button with on/off state   | false         |
 | toggle-state       | Setting the toggle button on/off state                    | false         |
-
+|||
 | width              | Width of button                                           | 1             |
 | height             | Height of button                                          | 1             |
 | depth              | Depth of button                                           | 0.02          |
 | base-depth         | Depth of the base of the button                           | 0.01          |
 | gap                | Gap between button and base                               | 0.025         |
 | margin             | Margin around button                                      | 0 0 0 0       |
-
+|||
 | bevel              | If true, button bevel is enabled                          | false         |
 | bevel-segments     | Segments of the button bevel                              | 5             |
 | steps              | Steps of the button bevel                                 | 2             |
@@ -240,10 +241,10 @@ The webpack-dev-server should now be running at http://localhost:8080
 | border-color       | Color of indicators that show 25/50/75/100 progress       | #22252a       |
 | background-color   | Background color of item                                  | #22252a       |
 | active-color       | Color of ring that indicates countdown progress           | #ed5b21       |
-
+|||
 | count-down         | Initial countdown value in seconds                        | 0             |
 | callback           | callback function that fires when countdown expires       | ''            |
-
+|||
 | width              | Width of item                                             | 1             |
 | height             | Height of item                                            | 1             |
 | margin             | Margin around item                                        | 0 0 0 0       |
@@ -265,12 +266,12 @@ The webpack-dev-server should now be running at http://localhost:8080
 | Property           | Description                                               | Default Value |
 | --------           | -------------------------------------------------------   | ------------- |
 | on                 | Event that triggers onclick action                        | click         |
-
+|||
 | icon               | 			                                                 | ''            |
 | icon-active        | 			                                                 | ''            |
 | icon-font          | Icon font family                                          | 'assets/fonts/fa-regular-400.ttf'            |
 | icon-font-size     | Icon Font size for button                                 | 0.4           |
-
+|||
 | font-color         | Text color for button label                               | #d3d3d4       |
 | border-color       | Border color of button                                    | #d3d3d4       |
 | background-color   | Background color of item                                  | #22252a       |
@@ -278,7 +279,7 @@ The webpack-dev-server should now be running at http://localhost:8080
 | active-color       | Background color when button is pressed down              | #ed5b21       |
 | toggle             | Toggle status                                             | false         |
 | toggle-state       | Setting the toggle button on/off state                    | false         |
-
+|||
 | height             | Height of item                                            | 1             |
 | width              | Width of item                                             | 1             |
 | margin             | Margin around item                                        | 0 0 0 0       |
@@ -300,12 +301,12 @@ The webpack-dev-server should now be running at http://localhost:8080
 | Property         | Description                                            | Default Value |
 | --------         | ----------------------------------------------------   | ------------- |
 | on               | Event that triggers onclick action                     | click         |
-
+|||
 | icon             | icon char                                              | ''            |
 | icon-active      | icon char for the active state                         | ''            |
 | icon-font        | Icon font family                                       | 'assets/fonts/fa-regular-400.ttf'            |
 | icon-font-size   | Icon Font size for button                              | 0.35          |
-
+|||
 | font-color       | Text color for button label                            | #d3d3d4       |
 | value            |  			                                            | ''            |
 | font-family      | Font family for button                                 | ''            |
@@ -317,7 +318,7 @@ The webpack-dev-server should now be running at http://localhost:8080
 | active-color     | Background color when button is pressed down           | #ed5b21       |
 | toggle           | Toggle status                                          | false         |
 | toggle-state     | Setting the toggle button on/off state                 | false         |
-
+|||
 | height           | Height of button                                       | 1             |
 | width            | Width of button                                        | 1             |
 | margin           | Margin around button                                   | 0 0 0 0       |
@@ -344,7 +345,7 @@ The webpack-dev-server should now be running at http://localhost:8080
 | onclick            | Function to call on click event                       |                |
 | onhover            | Function to call on hover event                       |                |
 | value              | Input text value                                      |                |
-
+|||
 | font-size          | Font size for input                                   | 0.2            |
 | font-family        | Font family for input                                 | ''             |
 | font-color         | Text input color                                      | #2c3037        |
@@ -352,7 +353,7 @@ The webpack-dev-server should now be running at http://localhost:8080
 | background-color   | Background color of input                             | #22252a        |
 | border-hover-color | Border color when input is in hover state             | #22252a        |
 | hover-color        | Background color when input is in hover state         | #2c3037        |
-
+|||
 | margin             | Margin around item                                    | 0 0 0 0        |
 | height             | Height of item                                        | 1              |
 | width              | Width of item                                         | 1              |
@@ -383,7 +384,7 @@ The webpack-dev-server should now be running at http://localhost:8080
 | font-family      | Font family for input                                   | ''             |
 | font-color       | Text input color                                        | #2c3037        |
 | background-color | Background color of label                               | #d3d3d4        |
-
+|||
 | text-depth       | distance from the text to label background              | 0.01           |
 | height           | Height of item                                          | 1              |
 | width            | Width of item                                           | 1              |
@@ -435,7 +436,7 @@ The webpack-dev-server should now be running at http://localhost:8080
 | active           |                                                           | true           |
 | toggle           | Toggle status                                             | false          |
 | toggle-state     | Setting the radio button on/off state                     | false          |
-
+|||
 | value            |  			                                               | ''             |
 | font-family      | Font family for radio button                              | ''             |
 | font-size        | Font size for radio button                                | 0.2            |
@@ -446,7 +447,7 @@ The webpack-dev-server should now be running at http://localhost:8080
 | hover-color      | Background color when radio button is in hover state      | #606876        |
 | handle-color     |                                                           | #22252a        |
 | active-color     | Background color when radio button is pressed down        | #ed5b21        |
-
+|||
 | height           | Height of radio button                                    | 1              |
 | width            | Width of radio button                                     | 1              |
 | margin           | Margin around radio button                                | 0 0 0 0        |
@@ -509,7 +510,7 @@ The webpack-dev-server should now be running at http://localhost:8080
 | active           |                                                           | false          |
 | toggle           | Toggle status                                             | false          |
 | toggle-state     | Setting the toggle toggle button on/off state             | false          |
-
+|||
 | value            |  			                                               | ''             |
 | font-family      | Font family for toggle button                             | ''             |
 | font-size        | Font size for toggle button                               | 0.2            |
@@ -520,7 +521,7 @@ The webpack-dev-server should now be running at http://localhost:8080
 | hover-color      | Background color when toggle button is in hover state     | #2c3037        |
 | handle-color     |                                                           | #d3d3d4        |
 | active-color     | Background color when toggle button is pressed down       | #ed5b21        |
-
+|||
 | height           | Height of toggle button                                   | 1              |
 | width            | Width of toggle button                                    | 1              |
 | margin           | Margin around toggle button                               | 0 0 0 0        |
